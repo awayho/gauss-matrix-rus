@@ -24,7 +24,7 @@ myA = [list(map(float, (input(f"строка {i+1}: ").split())))
 myB = map(float, input("введите матрицу правых частей, пробелы между числами: ").split())
 myB = list(myB)
 
-# --- вывод системы на экран
+# вывод системы на экран
 def FancyPrint(A, B, selected):
     for row in range(len(B)):
         print("(", end='')
